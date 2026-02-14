@@ -1,0 +1,21 @@
+{application, coordinator, [
+    {description, "Fault-tolerant distributed job coordinator"},
+    {vsn, "0.1.0"},
+    {registered, [coordinator_sup]},
+    {mod, {coordinator_app, []}},
+    {applications, [
+        kernel,
+        stdlib,
+        sasl,
+        jsx
+    ]},
+    {env, [
+        {tcp_port, 9000},
+        {heartbeat_timeout, 15000},
+        {scheduler_host, "127.0.0.1"},
+        {scheduler_port, 8001}
+    ]},
+    {modules, []},
+    {licenses, ["MIT"]},
+    {links, []}
+]}.

@@ -1,0 +1,43 @@
+# Binaries
+*/bin/
+*/target/
+*/_build/
+*/deps/
+*.beam
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Python
+scheduler/venv/
+scheduler/__pycache__/
+*.pyc
+
+# Crystal
+*.dwarf
+*.o
+
+# Rust
+**/*.rs.bk
+Cargo.lock
+
+# Erlang
+*.log
+erl_crash.dump
+rebar3.crashdump
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
