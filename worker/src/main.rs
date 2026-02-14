@@ -60,7 +60,6 @@ async fn main() -> Result<()> {
     let worker = Worker::new(
         args.id,
         args.coordinator,
-        addr,
         args.max_concurrent,
         args.heartbeat_interval,
     );
