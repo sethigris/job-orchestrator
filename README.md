@@ -1,6 +1,6 @@
 Distributed Job Orchestrator
 ============================
-A multi-language distributed system for running jobs across a cluster.
+A simple polyglot distributed system for running jobs across a cluster.
 
 QUICK START (4 terminals)
 -------------------------
